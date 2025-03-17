@@ -42,9 +42,10 @@ body{
     border: 1px solid black;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    background-color: rgb(199, 189, 179) ;
 }
 .button:hover{
-    background-color:rgb(194, 184, 171) ;
+    background-color:rgb(152, 143, 132) ;
 }
 .error{
     color: red;
