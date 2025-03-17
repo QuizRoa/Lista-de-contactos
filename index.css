@@ -140,3 +140,10 @@ svg:hover{
         flex-direction: column;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+   *{
+    background-color: rgb(223, 186, 128);
+   }
+    
+}
