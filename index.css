@@ -95,27 +95,27 @@ svg:hover{
 }
 #form2 > *:nth-child(1),
 #form2 > *:nth-child(2) {
-    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
+    flex: 1 1 35%; 
 }
 #form2 > *:nth-child(3),
 #form2 > *:nth-child(4) {
-    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
+    flex: 1 1 5%; 
 }
 #form2 > *:nth-child(5),
 #form2 > *:nth-child(6) {
-    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
+    flex: 1 1 35%;
 }
 #form2 > *:nth-child(7),
 #form2 > *:nth-child(8) {
-    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
+    flex: 1 1 5%; 
 }
 #form2 > *:nth-child(9),
 #form2 > *:nth-child(10) {
-    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
+    flex: 1 1 35%; 
 }
 #form2 > *:nth-child(11),
 #form2 > *:nth-child(12) {
-    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
+    flex: 1 1 5%; 
 }
 .input2 {
     flex: 1;
