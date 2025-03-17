@@ -102,7 +102,7 @@ svg:hover{
     flex: 1 1 20%; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 831px) {
     #form2 {
         flex-direction: column;
     }
