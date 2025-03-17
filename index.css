@@ -21,10 +21,12 @@ body{
 .input{
     display: flex;
     flex-direction: column;
+    border-radius: 0.5rem;
     
 }
 .name{
     border: 1px solid red;
+    border-radius: 0.5rem;
 }
 
 .name:focus {
@@ -34,9 +36,11 @@ body{
 }
 .number{
     border: 1px solid black;
+    border-radius: 0.5rem;
 }
 .button{
     border: 1px solid black;
+    border-radius: 0.5rem;
     padding: 0.5rem;
 }
 .button:hover{
@@ -91,27 +95,27 @@ svg:hover{
 }
 #form2 > *:nth-child(1),
 #form2 > *:nth-child(2) {
-    flex: 1 1 35%; 
+    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
 }
 #form2 > *:nth-child(3),
 #form2 > *:nth-child(4) {
-    flex: 1 1 5%; 
+    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
 }
 #form2 > *:nth-child(5),
 #form2 > *:nth-child(6) {
-    flex: 1 1 35%; 
+    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
 }
 #form2 > *:nth-child(7),
 #form2 > *:nth-child(8) {
-    flex: 1 1 5%; 
+    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
 }
 #form2 > *:nth-child(9),
 #form2 > *:nth-child(10) {
-    flex: 1 1 35%; 
+    flex: 1 1 35%; /* Cada uno ocupa el 35% inicialmente */
 }
 #form2 > *:nth-child(11),
 #form2 > *:nth-child(12) {
-    flex: 1 1 5%; 
+    flex: 1 1 5%; /* Cada uno ocupa el 15% inicialmente */
 }
 .input2 {
     flex: 1;
@@ -136,4 +140,3 @@ svg:hover{
         flex-direction: column;
     }
 }
-
